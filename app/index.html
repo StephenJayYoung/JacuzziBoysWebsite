@@ -20,9 +20,6 @@
     <!--overwritten CSS -->
     <link href="css/stylesheet.css" rel="stylesheet">
 
-    <!--instafeed.js (for showing instagram feed)-->
-     <script type="text/javascript" src="js/instafeed.min.js"></script>
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -89,9 +86,10 @@
 
     <script type="text/javascript">
     var feed = new Instafeed({
-        get: 'tagged',
-        tagName: 'awesome',
-        clientId: 'YOUR_CLIENT_ID'
+     get: 'tagged',
+    tagName: 'runningculture',
+      clientId: '708cd87995164d5f87652d04ec1b6851',
+      accessToken: '1552817979.467ede5.aedcc0ee538d4c4ba0419d5db7e449e4'
     });
     feed.run();
     </script>
@@ -114,6 +112,10 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+        <!--instafeed.js (for showing instagram feed)-->
+     <script type="text/javascript" src="js/instafeed.min.js"></script>
+
 
 </body>
 
