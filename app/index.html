@@ -70,18 +70,6 @@
     </nav>
 
 
-       <!-- /instagram widget -->
-    <div id="widget"></div>
-      <!-- add instagram api here... -->
-<script type="text/javascript">
-$(document).ready(function() {
-$("#widget").ProfileWidget({
-username: "rihanna",
-clientID: "YOUR API KEY"
-});
-});
-</script>
-
 
     <!-- Page Content -->
     <div class="container">
@@ -98,6 +86,15 @@ clientID: "YOUR API KEY"
             </h4>
             <p>Request info from Scott and add here</p>
         </div>
+
+    <script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'awesome',
+        clientId: 'YOUR_CLIENT_ID'
+    });
+    feed.run();
+    </script>
 
     <div class="container">
 
