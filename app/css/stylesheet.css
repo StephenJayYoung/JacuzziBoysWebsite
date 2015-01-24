@@ -1,3 +1,13 @@
+
+.navbar-header {
+	font-weight: bold;
+}
+
+.navbar-collapse {
+	font-weight: bold;
+}
+
+
  body {
     background-color: #f4f4f4;
   }
