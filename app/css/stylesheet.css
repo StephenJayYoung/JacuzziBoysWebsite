@@ -47,6 +47,10 @@
   position:relative;
 }
 
+.fa-stack {
+  color: black;
+}
+
 /*#instafeed .likes {
   background:rgba(222,89,135,0.8);
   font-family:sans-serif;
