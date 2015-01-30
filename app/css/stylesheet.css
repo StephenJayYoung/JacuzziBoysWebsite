@@ -20,7 +20,9 @@
   background-color: #fff;
 }
 
-
+#athletePics{
+    display:none
+}
 
 #jbacLogo{
 	width: 29em;
