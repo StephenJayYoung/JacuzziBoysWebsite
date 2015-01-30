@@ -23,9 +23,6 @@
        <!-- Custom Fonts -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-        <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -95,10 +92,9 @@
     <!-- Athletes Row 1 -->
         <div class="row">
             <div class="col-md-4 portfolio-item">
-               <!--  <a href="#"> -->
-                    <img id="athletePics" class="img-responsive center-block" src="../JCBAC_Athlete_Photos/Scott1.jpeg" id="projpics" alt="">
-              <!--   </a> -->
-                <span>Scott</span>
+                <a href="#">
+                    <img class="img-responsive center-block" src="../JCBAC_Athlete_Photos/Scott1.jpeg" id="projpics" alt="">
+                </a>
 <!--                 <h2 class="text-center">
                     <a href="#">Scott Olberding</a> -->
             </div>
@@ -129,30 +125,14 @@
                 <a href="#">
                     <img class="img-responsive center-block" src="../JCBAC_Athlete_Photos/Russell1.jpg" id="projpics" alt="">
                 </a>
-<!--                 <h2 class="text-center">
-                    <a href="#">Russell Drummond</a> -->
+                <h2 class="text-center">
+                    <a href="#">Russell Drummond</a>
                 </h2>
             </div>
         </div>
         <!-- /.row -->
     </div>
 </div>
-
-<script>
-   $(document).ready(function () {
-       $('span').on('mouseenter', function () {
-           $('#athletePics').show();
-           $(this).css({
-               "text-decoration": "underline"
-           });
-       }).on('mouseleave', function () {
-           $('#athletePics').hide();
-           $(this).css({
-               "text-decoration": ''
-           });
-       });;
-   });
-</script>
 
 </body>
 
@@ -193,6 +173,9 @@
         </div>
     </footer>
 
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
