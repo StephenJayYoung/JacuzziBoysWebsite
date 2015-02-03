@@ -101,12 +101,18 @@
 </header>
 
 <script>
+// Authenticate via OAuth
 var tumblr = require('tumblr.js');
 var client = tumblr.createClient({
-  consumer_key: '<consumer key>',
-  consumer_secret: '<consumer secret>',
-  token: '<oauth token>',
-  token_secret: '<oauth token secret>'
+  consumer_key: 'wpj1WGeM4wq3wNjt9Y826dxWWS8i7H2mkSVBCcHZVQKUgUHPOZ',
+  consumer_secret: 'TSpoPrMxiecb78siuiUSnAKQpYglGzwl0IVKGkZyvhKdNP4fNl',
+  token: 'fJtD0zb8mJCKLZNRmTp5Z5oXWcciSsFmlPEdwj99G2dJe2r1LC',
+  token_secret: 'FRaibhSl7Jd3pAT291OnTgJBKL00Abe7qhEBY8PnPkYJFxBmvR'
+});
+
+// Make the request
+client.userInfo(function (err, data) {
+    // ...
 });
 </script>
 
