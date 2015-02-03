@@ -112,8 +112,18 @@ var client = tumblr.createClient({
 
 // Make the request
 client.userInfo(function (err, data) {
-    // ...
+    data.user.blogs.forEach(function (blog) {
+        console.log(blog.name);
+    });
 });
+
+
+
+$.getJSON("http://api.tumblr.com/v2/blog/thejbac.tumblr.com/posts/text?api_key='wpj1WGeM4wq3wNjt9Y826dxWWS8i7H2mkSVBCcHZVQKUgUHPOZ', function(data) {
+   alert(data); // Do something with 'Data', your JSON response.
+});
+
+
 </script>
 
 </body>
