@@ -106,23 +106,43 @@
 
 
 
-<div id="announcement"></div>
+<div id="myDivId"></div>
+
+<script>
+$.ajax({
+    url: "http://api.tumblr.com/v2/blog/thejbac.tumblr.com/info?api_key=wpj1WGeM4wq3wNjt9Y826dxWWS8i7H2mkSVBCcHZVQKUgUHPOZ",
+    dataType: 'jsonp',
+    success: function(results){
+        // Logs to your javascript console.
+        console.log(results); 
+        // writes the title to a div with the Id "myDivId" (ie. <div id="myDivId"></div>)
+        $("#myDivId").html(results.response.title); 
+    }
+});
+</script>
 
 
- <script type="text/javascript" src="http://api.tumblr.com/v2/blog/thejbac.tumblr.com/posts/text?api_key=wpj1WGeM4wq3wNjt9Y826dxWWS8i7H2mkSVBCcHZVQKUgUHPOZ">
- </script>
 
- <script type='text/javascript'>
-  $("#announcement").html(
-    tumblr_api_read["posts"][0]["regular-body"].substring(0,400)
-  );
-  $("#announcement_url").attr(
-      {
-        href: (tumblr_api_read["posts"][0]["url"])
-      }
-    );
- </script>
 
+
+
+
+
+<!--
+ <script type="text/javascript" src="http://api.tumblr.com/v2/blog/thejbac.tumblr.com/likes?api_key=wpj1WGeM4wq3wNjt9Y826dxWWS8i7H2mkSVBCcHZVQKUgUHPOZ">
+ //  </script>
+
+ // <script type='text/javascript'>
+ //  $("#announcement").html(
+ //    tumblr_api_read["posts"][0]["regular-body"].substring(0,400)
+ //  );
+ //  $("#announcement_url").attr(
+ //      {
+ //        href: (tumblr_api_read["posts"][0]["url"])
+ //      }
+ //    );
+ // </script>
+-->
 
 
 
