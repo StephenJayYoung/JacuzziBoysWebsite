@@ -118,7 +118,7 @@ $.ajax({
         console.log(results); 
         var url = "http://api.tumblr.com/v2/blog/thejbac.tumblr.com/posts?api_key=wpj1WGeM4wq3wNjt9Y826dxWWS8i7H2mkSVBCcHZVQKUgUHPOZ";
         var response = url;
-        var body = response.posts.body;
+        var body = response.posts.[0];
         var date = response.posts.date;
         var caption = response.posts.caption;
         var photos = response.posts.photos;
