@@ -118,13 +118,15 @@ $.ajax({
         console.log(results); 
         var url = "http://api.tumblr.com/v2/blog/thejbac.tumblr.com/posts?api_key=wpj1WGeM4wq3wNjt9Y826dxWWS8i7H2mkSVBCcHZVQKUgUHPOZ";
         var response = url;
-        var date = response.posts.foreach.date;
-        var caption = response.posts.forEach.caption;
+        var body = response.posts.body;
+        var date = response.posts.date;
+        var caption = response.posts.caption;
+        var photos = response.posts.photos;
         var blogPosts= caption + date + photos;
         var showAllPosts=foreach(blogPosts);
 
         // writes the title to a div with the Id "myDivId" (ie. <div id="myDivId"></div>)
-        $("#myDivId").html(results.response.posts.blogPosts);
+        // $("#myDivId").html(results.response.posts.showAllPosts);
 
     	$('<img>')
 	  		.attr('src', showAllPosts)
