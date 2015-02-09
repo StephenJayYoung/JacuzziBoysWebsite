@@ -1,15 +1,17 @@
 
 .navbar-header {
 	font-weight: bold;
+  background-color: black
 }
 
 .navbar-collapse {
 	font-weight: bold;
+  background-color: black
 }
 
 
  body {
-    background-color: #f4f4f4;
+    background-color: black;
   }
 
 #wrapper {
