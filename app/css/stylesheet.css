@@ -4,23 +4,27 @@
 .navbar {
   background-color: #2F4F4F;
   padding: 5px 5px 10px 10px;
+  border: 0 !important;
 }
 
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
   vertical-align: top;
+  border: 0 !important;
 }
 
 .navbar-header {
 	font-weight: bold;
   background-color: #2F4F4F;
+  border: 0 !important;
 }
 
 .navbar-collapse {
 	font-weight: bold;
   background-color: #2F4F4F;
-   text-align: center;
+  text-align: center;
+  border: 0 !important;
 }
 
 ul.nav a:hover { 
