@@ -1,7 +1,15 @@
 
+
+
 .navbar {
   background-color: black;
   padding: 5px 5px 10px 10px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
 }
 
 .navbar-header {
@@ -12,6 +20,7 @@
 .navbar-collapse {
 	font-weight: bold;
   background-color: black
+   text-align: center;
 }
 
 ul.nav a:hover { 
@@ -39,8 +48,8 @@ ul.nav a:hover {
 }
 
 #jbacLogo{
-	width: 29em;
-	height: 15em;
+	width: 16em;
+	height: 13em;
   padding-bottom: 7px;
 }
 
