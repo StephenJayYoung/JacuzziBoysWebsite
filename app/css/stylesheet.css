@@ -5,7 +5,7 @@
 }
 
 .navbar {
-  background-color: #333333;
+  background-color: black;
   padding: 2px 5px 6px 10px;
   border: 0 !important;
 }
@@ -30,13 +30,13 @@
 
 .navbar-header {
 	font-weight: bold;
-  background-color: #333333;
+  background-color: black;
   border: 0 !important;
 }
 
 .navbar-collapse {
 	font-weight: bold;
-  background-color: ##333333;
+  background-color: black;
   text-align: center;
   border: 0 !important;
 }
@@ -64,7 +64,7 @@ ul.nav a:hover {
 }*/
 
  body {
-    background-color: #333333;
+    background-color: black;
   }
 
 #wrapper {
