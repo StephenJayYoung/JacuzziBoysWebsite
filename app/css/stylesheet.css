@@ -9,7 +9,12 @@
 }
 
 .navbar-brand {
-  font-size: 1.5em
+  font-size: 1.5em;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  text-align: left;
+  margin: auto;
 }
 
 .navbar .navbar-nav {
@@ -69,7 +74,7 @@ ul.nav a:hover {
 #jbacLogo{
 	width: 13em;
 	height: 10em;
-  padding-bottom: 7px;
+  padding-bottom: 10px;
 }
 
 #instafeed{
