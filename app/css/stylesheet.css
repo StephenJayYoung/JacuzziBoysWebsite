@@ -5,6 +5,11 @@
   background-color: #2F4F4F;
   padding: 5px 5px 10px 10px;
   border: 0 !important;
+
+}
+
+.navbar-brand {
+  font-size: 1.5em
 }
 
 .navbar .navbar-nav {
@@ -12,6 +17,7 @@
   float: none;
   vertical-align: top;
   border: 0 !important;
+  font-size: 1.3em;
 }
 
 .navbar-header {
@@ -112,6 +118,33 @@ background: black;
 text-align: center;
 font-weight:bold;
 }
+
+/* link colors*/
+/* unvisited link */
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+
 
 /*.portfolio-item {
 position: relative;
