@@ -39,8 +39,8 @@ ul.nav a:hover {
   color: gray !important;
 }
 
-.nav.navbar-nav.navbar-right {
-    color: blue;
+.navbar .nav > li > a {
+    color:  white;
 }
 
 
