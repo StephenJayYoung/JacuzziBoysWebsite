@@ -13,7 +13,6 @@
   margin: auto;
 }*/
 
-
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
@@ -69,6 +68,26 @@ ul.nav a:hover {
   background-color: #fff;
 }
 
+/* text stuff */
+h1{
+font-family:'Open Sans', sans-serif;
+font-weight: bold;
+font-size: 2em;
+}
+
+h3{
+font-family:'Open Sans', sans-serif;
+font-size: 1.4em;
+font-weight: bold;
+}
+
+.lead{
+  font-family:'Open Sans', sans-serif;
+  font-size: 1.4em;
+}
+
+
+
 #athletePics{
     display:none;
 }
@@ -99,9 +118,14 @@ ul.nav a:hover {
 }
 
 .fa-stack {
-  color: black;
- /* background-color: white*/
+  color: white;
+  background-color: black
 }
+
+.fa-stack-2x {
+  color: black;
+}
+
 
 .copyright {
   color: white;
