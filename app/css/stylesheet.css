@@ -23,12 +23,14 @@
 
 .navbar-header {
 	font-weight: bold;
+  font-family:'Open Sans', sans-serif;
   background-color: black;
   border: 0 !important;
 }
 
 .navbar-collapse {
 	font-weight: bold;
+  font-family:'Open Sans', sans-serif;
   background-color: black;
   text-align: center;
   border: 0 !important;
@@ -84,6 +86,7 @@ font-weight: bold;
 .lead{
   font-family:'Open Sans', sans-serif;
   font-size: 1.4em;
+  font-weight: ;
 }
 
 
