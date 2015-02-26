@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Jacuzzi Boys Athletic Club</title>
+    <title>Coach</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -17,19 +17,13 @@
     <!-- Custom CSS -->
     <link href="css/shop-item.css" rel="stylesheet">
 
-   <!-- Custom Fonts -->
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-    <!-- Bootstrap Social Buttons CSS -->
-    <link href="css/social-buttons.css" rel="stylesheet">
-
-        <!-- Custom CSS -->
-<!--     <link href="css/clean-blog.min.css" rel="stylesheet"> -->
-
-    <!--overwritten CSS -->
+        <!--overwritten CSS -->
     <link href="css/stylesheet.css" rel="stylesheet">
 
-<link rel='shortcut icon' type='image/x-icon' href='../favicon.png' />
+       <!-- Custom Fonts -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <link rel='shortcut icon' type='image/x-icon' href='../favicon.png' />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -39,12 +33,11 @@
     <![endif]-->
 
 </head>
-
 <header>
 <div class="container">
     <div class="row">
       <div class="span4">
-        <div class="span4"><img class="center-block img-responsive" id="jbacLogo" src="../JBACClear.png"></div>
+        <div class="span4"><img class="center-block img-responsive" id="jbacLogo" src="JBACClear.png"></div>
       </div>
 
       <div class="span4">
@@ -105,82 +98,35 @@
 </header>
 
 <body>
-<!--this will create the border around the webpage-->
+
 <div id="wrapper" class="container">
-<br>
+
     <!-- Page Content -->
+    <div class="container-fluid">
 
-<div class="container-fluid">
-    <div class ="row">
-        <div class="span4">
-            <div class="caption-full text-center">
-            <div class="span4"><img class="img-circle img-responsive center-block" src="../JBACMain2.jpg">
-                        <div class="font-effect-outline">
-            <h1>We Are the Jacuzzi Boys</h1>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1>Coach JMar</h1>
+                <br>
             </div>
-            </div>
-            </div>
-            <br>
-            <div class = "container-fluid">
-            <p class="lead text-center">A band of former collegiate distance runners took their infatuation with endurance athletics and transformed it from a recreational activity into something with conviction. Sure, we're committed to each other, but we're also committed to ourselves: to giving our potentially aimless ambitions a pointed, focused direction, while not waiting for all the stars to perfectly align only to be blinded by the sun. It's from these ideals - celebrating the process and sharing the experience with great friends - that the Jacuzzi Boys Athletic Club was born. </p>
         </div>
-    </div>
-<br>
- <div class ="row">
-       <div class="span4">
-            <div class="caption-full text-center">
-            <a href="http://instagram.com/thejbac">
-            <h3>Follow us @theJBAC</h3>
-            </a>
-            </div>
-            </div>
-            </div>
-    </div>
 
+    <div class="row-fluid">
+      <div class="col-md-5 "><img class="img-responsive img-circle" src="JMAR.jpg">
+    </div>
+    </div>
+    <br>
 
-    <div class ="row">
+    <div class ="row-fluid">
         <div class="span4">
-            <div class="text-center">
-                <div id="instafeed"></div>
+            <div class="caption-full">
+                <p class="lead">Portland-raised, Columbia-educated, and subtly vegan, Jonathan Marcus has established himself as one of the premier endurance aficionados in the PNW. When not running the show on the distance side of things at Portland State University, JMar can be spotted organizing the world-renowned USATF High Performance Distance Classic, throwing a number of Portland-area running events, coaching a stable of local elite athletes, or lending his expertise to the fellas of the JBAC.</p>
             </div>
         </div>
     </div>
-</div>
-</div>
-<br>
-<br>
-
-        <!--instafeed.js (for showing instagram feed)-->
-     <script src="js/instafeed.min.js"></script>
-
-<script type="text/javascript">
-    var userFeed = new Instafeed({
-        get: 'user',
-        userId: 1552817979,
-        accessToken: '1552817979.467ede5.aedcc0ee538d4c4ba0419d5db7e449e4',
-        useHttp: true,
-        limit: 9,
-        resolution: 'low_resolution',
-  after: function () {
-    var images = $("#instafeed").find('a');
-    $.each(images, function(index, image) {
-      var delay = (index * 75) + 'ms';
-      $(image).css('-webkit-animation-delay', delay);
-      $(image).css('-moz-animation-delay', delay);
-      $(image).css('-ms-animation-delay', delay);
-      $(image).css('-o-animation-delay', delay);
-      $(image).css('animation-delay', delay);
-      $(image).addClass('animated flipInX');
-    });
-  },
-  template: '<a href="{{link}}" target="_blank"><img src="{{image}}"</div></a>'
-});
-    userFeed.run();
-</script>
-
+    </div>
 
 </div>
-</body>
 
     <!-- Footer -->
     <footer>
@@ -218,6 +164,7 @@
             </div>
         </div>
     </footer>
+    <!-- /.container -->
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -225,7 +172,6 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-
-
+</body>
 
 </html>
